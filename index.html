@@ -1,0 +1,102 @@
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta property="title" content="/airhorn" />
+	<meta property="url" content="https://airhorn.solutions" />
+	<meta property="description" content="A Discord bot with live statistics that makes airhorn sounds BEEP BOOP." />
+	<meta property="site_name" content="Airhorn Solutions" />
+	<meta property="locale" content="en-US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://airhorn.solutions" />
+	<meta property="og:image" content="https://airhorn.solutions/airhorn-banner.png" />
+	<meta property="og:title" content="/airhorn" />
+	<meta property="og:description" content="A Discord bot with live statistics that makes airhorn sounds BEEP BOOP." />
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:site" content="@discord" />
+	<meta property="twitter:image" content="https://airhorn.solutions/airhorn-banner.png" />
+	<meta property="twitter:title" content="/airhorn" />
+	<meta property="twitter:description" content="BEEP BOOP. Airhorn bot makes airhorn noises in Discord. BEEP BOOP." />
+	<link rel="icon" href="https://airhorn.solutions/favicon.png" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet" type="text/css" />
+	<title>/airhorn</title>
+	<link href="assets/main.css" rel="stylesheet" />
+</head>
+
+<body>
+	<h1>/airhorn</h1>
+	<h2>
+		The only bot for
+		<a href="https://discord.com/?utm_source=airhornsubtext&utm_medium=website&utm_campaign=airhorn">Discord</a>
+		you'll ever need.
+	</h2>
+	<video id="video">
+		<source src="assets/airhorn.mp4" type="video/mp4" />
+		<source src="assets/airhorn.webm" type="video/webm; codecs=vp8, vorbis" />
+		<audio id="audio" src="assets/airhorn.wav" type="audio/wav"></audio>
+	</video>
+	<div>
+		<a class="add-btn"
+			href="https://discord.com/api/oauth2/authorize?client_id=159799960412356608&amp;permissions=36703232&amp;scope=applications.commands%20bot"
+			target="_blank">Add to Discord</a>
+	</div>
+	<footer>
+		<div id="counter">
+			<img src="assets/airhorn-counter.svg">
+			<div id="count-container">
+				<div id="count">1,655,702</div>
+				<div id="and-counting">and counting</div>
+			</div>
+			<img src="assets/icon-about.svg">
+		</div>
+		<div id="footer-text">
+			Open sourced by the team at Discord. Contribute yourself on
+			<a href="https://github.com/discord/airhornbot">GitHub</a><a href="https://github.com/discord/airhornbot"
+				class="arrow">&nbsp;➔</a>
+		</div>
+		<div class="social">
+			<a href="https://twitter.com/share?text=This @discord bot makes airhorn sounds ayy lmao&hashtags=ReadyForHorning"
+				target="_blank"><img src="assets/icon-twitter.svg"></a>
+			<a href="http://www.facebook.com/sharer.php?u=https://airhorn.solutions" target="_blank"><img
+					src="assets/icon-facebook.svg"></a>
+		</div>
+	</footer>
+
+	<div id="stats" class="hide">
+		<img src="assets/icon-close.svg" id="close">
+		<div class="row">
+			<img src="assets/icon-plays.svg">
+			<div>
+				<div class="value" id="plays">1,664,342</div>
+				<div class="label">plays</div>
+			</div>
+		</div>
+		<div class="row">
+			<img src="assets/icon-users.svg">
+			<div>
+				<div class="value" id="users">67,092</div>
+				<div class="label">unique users</div>
+			</div>
+		</div>
+		<div class="row">
+			<img src="assets/icon-servers.svg">
+			<div>
+				<div class="value" id="servers">31,099</div>
+				<div class="label">unique servers</div>
+			</div>
+		</div>
+		<div class="row">
+			<img src="assets/icon-channels.svg">
+			<div>
+				<div class="value" id="channels">51,199</div>
+				<div class="label">unique channels</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="assets/main.js"></script>
+</body>
+
+</html>
